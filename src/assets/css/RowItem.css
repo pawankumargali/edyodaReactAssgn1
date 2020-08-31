@@ -1,0 +1,23 @@
+.row-item {
+    min-width: 300px;
+    width:50%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+    padding:5px 10px;
+}
+
+
+.row-item span {
+    color:#D3D3D1;
+    font-size:16px;
+    font-weight: 500;
+}
+
+.row-item > div {
+    width:20px;
+    height:10px;
+    border-radius: 10px;
+}
